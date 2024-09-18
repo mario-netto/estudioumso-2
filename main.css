@@ -1,0 +1,82 @@
+/* "Roboto", sans-serif;
+"Archivo Black", sans-serif;
+"Jost", sans-serif; */
+
+body {
+    /* font-family: Roboto, sans-serif; */
+    font-family: "Jost", sans-serif;
+}
+
+.navbar {
+    background-color: #22181c;
+    box-shadow: 0px 5px 10px 0px #22181c65;
+}
+
+.nav .nav-link.active {
+    background-color: #F6E8EA;
+    color: #22181c;
+}
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #f6e8ea ;
+}
+
+.navbar-toggler-icon {
+    /* background-color: #F6E8EA; */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(46, 232, 234, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.section-title {
+    font-family: "Jost", sans-serif;
+}
+
+#sobre {
+    background-color: #22181c;
+    color: #f6e8ea;
+}
+
+#servicos {
+    background-color: #F6E8EA;
+    color: #22181c;
+}
+
+.text-colored {
+    color: #EF626C;
+}
+
+#portfolio {
+    background-color: #22181c;
+    color: #F6E8EA;
+}
+
+#fale-conosco {
+    background-color: #F6E8EA;
+    color: #22181c;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #22181c;
+    color: #F6E8EA;
+}
+
+footer ul {
+    border-bottom: 1px solid #F6E8EA;
+}
+
+footer p a:hover {
+    color: #F6E8EA;
+}
+
+@media (max-width) {
+    
+}
